@@ -1,8 +1,8 @@
 import sys, pyperclip
 
-text = {"agree": "sure lets do this but later i dont want to waste your precious time ",
-"busy": "nah i am not interested in this shitshow that you call your life ",
-"lessgo": "lets do this shit cuz why not lol "
+text = {"agree": "sure lets do this but later i am very busy right now ",
+"busy": "hey sorry but looks like i wont be able to help you,my schedule is super packed right now maybe we can do this later? ",
+"lessgo": "lets do this whenever you are free, super exited about this project "
 }
 keyphrase = sys.argv[1]
 if keyphrase in text:
